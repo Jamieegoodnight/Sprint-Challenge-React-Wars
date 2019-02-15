@@ -3,7 +3,7 @@ import React from 'react';
 const Character = props => {
     return (
         <div className="character">
-            <p><strong>Name:</strong> {props.element.name}</p>
+            <h2>{props.element.name}</h2>
             <p><strong>Birth Year:</strong> {props.element.birth_year}</p>
             <p><strong>Hair Color:</strong> {props.element.hair_color}</p>
             <p><strong>Skin Color:</strong> {props.element.skin_color}</p>
