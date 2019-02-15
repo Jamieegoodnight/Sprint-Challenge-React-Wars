@@ -9,4 +9,4 @@ const Character = props => {
     </div>
 }
 
-export default Character
+export default Character;
