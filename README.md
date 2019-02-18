@@ -1,3 +1,25 @@
+
+<!-- What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+ React JS was designed by Facebook as way to handle large amounts of data at a time. For example, in this project we use React JS as way to efficiently display objects and their attributes in arrays. 
+
+ What does it mean to think in react?
+
+ I think of 'thinking in react' as understanding the interaction of components parts of your React project, how they give and take props, and how to synthesize JS and HTML language. 
+
+ Describe state.
+
+ State is an application's data. It can be described as the application's "blood", it flows across the entire application. 
+
+ Describe props.
+ 
+  I think of props like a train or a vehicle of somekind that we move from one component to another, giving that new component access to it. For example, props could be a quote, "Learn props, you must", that we have to "drill down" through our components to insert in the correct spot. 
+
+  -->
+
+
+
+
 # Sprint Challenge: React - Star Wars
 
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored ReactJS, Functional Components and Class Components. In your challenge for this Sprint, you will demonstrate proficiency by creating an application that uses ReactJS to consume live data retrieved from the World Wide Web and style that data nicely on the page.

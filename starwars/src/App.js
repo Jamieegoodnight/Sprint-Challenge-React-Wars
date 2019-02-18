@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
+
+import CharacterList from "./components/CharacterList"
 import './App.css';
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      starwarsChars: []
+      starwarsChars: [],
     };
   }
 
   componentDidMount() {
-    this.getCharacters('https://swapi.co/api/people');
+    this.getCharacters('https://swapi.co/api/people/', 'https://swapi.co/api/people/?page=2');
   }
+
 
   getCharacters = URL => {
     // feel free to research what this code is doing.
@@ -22,6 +25,7 @@ class App extends Component {
         return res.json();
       })
       .then(data => {
+        console.log(data);
         this.setState({ starwarsChars: data.results });
       })
       .catch(err => {
@@ -33,6 +37,11 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        <div>
+          <CharacterList
+          starwarsChars={this.state.starwarsChars}
+          />
+        </div>
       </div>
     );
   }

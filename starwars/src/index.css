@@ -5,3 +5,23 @@ body {
   background-image: url('./sw-bg.jpg');
   background-size: cover;
 }
+
+.character {
+  max-width: 500px;
+  margin: 10px auto;
+  background-color: rgba(0,0,0, .7);
+  border: 3px solid #fce469;
+ text-align: center;
+}
+
+p {
+  color: #fce469;
+}
+
+h2 {
+  text-shadow: 1px 1px 5px #fce469;
+}
+
+h3 {
+  text-shadow: 1px 1px 5px #fce469;
+}
